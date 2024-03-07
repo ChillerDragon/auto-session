@@ -7,6 +7,14 @@ local AutoSession = {
   conf = {},
 }
 
+print('      _     _ _ _              _                             ')
+print('  ___| |__ (_) | | ___ _ __ __| |_ __ __ _  __ _  ___  _ __  ')
+print(" / __| '_ \\| | | |/ _ \\ '__/ _` | '__/ _` |/ _` |/ _ \\| '_ \\ ")
+print('| (__| | | | | | |  __/ | | (_| | | | (_| | (_| | (_) | | | |')
+print(' \\___|_| |_|_|_|_|\\___|_|  \\__,_|_|  \\__,_|\\__, |\\___/|_| |_|')
+print('                                           |___/             ')
+print('')
+
 -- Run comand hooks
 local function run_hook_cmds(cmds, hook_name)
   local results = {}
