@@ -126,14 +126,6 @@ function AutoSession.setup(config)
 end
 
 function AutoSession.setup_session_lens()
-  local has_telescope, _ = pcall(require, "telescope")
-
-  if not has_telescope then
-    Lib.logger.info "Telescope.nvim is not installed. Session Lens cannot be setup!"
-    return
-  end
-
-  require("auto-session.session-lens").setup(AutoSession)
 end
 
 local function is_enabled()

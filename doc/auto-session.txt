@@ -213,12 +213,9 @@ SessionLens.search_session({custom_opts})
 M.setup()                                                              *M.setup*
 
 
-M.source_session({prompt_bufnr})                              *M.source_session*
+M.source_session()                              *M.source_session*
     Source session action
     Source a selected session after doing proper current session saving and cleanup
-
-    Parameters: ~
-        {prompt_bufnr}  (number)  the telescope prompt bufnr
 
 
 M.delete_session({prompt_bufnr})                              *M.delete_session*
